@@ -1,7 +1,7 @@
 Partimos desde un proyecto que ya existe. El producto 3.
 Linea de comando y accedes en la carpeta EquipoBasket.
 
-cd EquipoBAsket
+cd EquipoBasket
 
 Empezar a instalar.
 Instalamos las librerias de reacct para firebase y messaging
@@ -9,7 +9,7 @@ Instalamos las librerias de reacct para firebase y messaging
 npm install --save @react-native-firebase/app
 npm install --save @react-native-firebase/messaging
 
-Para todo el tema de los mensajes he utilizado Expo. Para eso habrá que darse de alta. Me imagino que en cada ordenador será diferente.
+Para todo el tema de los mensajes hemos utilizado Expo. Para eso habrá que darse de alta. Me imagino que en cada ordenador será diferente.
 
 npx i eas-cli
 npx i eas (creo que no es necesario)
