@@ -35,7 +35,7 @@ Lo explica claramente https://docs.expo.dev/push-notifications/fcm-credentials/
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.alexismuria.EquipoBasket"
+      "package": "com.xxxx.EquipoBasket"
     },
 
 Haciendo esto y con el código que os hemoa pasado según el video debería de funcionar. Pero sorpresa sorpresa no va. 
