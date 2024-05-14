@@ -1,5 +1,5 @@
 import React, {Component, useState, useEffect} from 'react'
-import { Text,StyleSheet,View, ScrollView, TouchableOpacity, Alert} from 'react-native'
+import { Text,StyleSheet,View, ScrollView, TouchableOpacity} from 'react-native'
 import { Platform } from 'react-native'
 
 import appFirebase from '../credencialesFirebase'
@@ -16,13 +16,11 @@ import messaging from "@react-native-firebase/messaging";
 import { StatusBar } from "expo-status-bar";
 
 
-
 const db=getFirestore(appFirebase)
 
+
+
 export default function playersComponent(props) {
-
-
-    //Esta parte es la de lectura de los jugadores de la BD
 
     const [lista, setLista]=useState([]);
 
@@ -52,7 +50,12 @@ export default function playersComponent(props) {
         }
         getLista()
     }, [])
+
 //[lista] Lo he comentado porque cada vez se va actualizando y ha hecho que excedamos firebase
+
+
+//Aqui empieza para los mensajes
+
 
 //Aquí vamos a empezar a esperar los mensajes.
 const requestUserPermission = async () => {
@@ -110,7 +113,6 @@ const requestUserPermission = async () => {
     }, []);
 
     
-
 
 
 

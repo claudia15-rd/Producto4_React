@@ -23,14 +23,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.alexismuria.EquipoBasket"
+      "package": "com.claudiaelizabeth.EquipoBasket"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "ca2535e0-2205-4059-af96-3cec7b517eba"
+        "projectId": "801bd124-8116-46df-a215-abfb70972a4c"
       }
     }
   }

@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Alert } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import 'react-native-gesture-handler';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
@@ -8,17 +8,10 @@ import detailComponent from './components/detail-component';
 import videoComponent from './components/video-component';
 import addPlayerComponent from './components/addPlayer-component';
 
-
-
 export default function App() {
 
   const Stack = createStackNavigator();
 
-
-
-
-
-  
   function MyStack() {
     return (
       <Stack.Navigator>
@@ -73,10 +66,6 @@ export default function App() {
     </Stack.Navigator>
     );
   }
-
-
-
-
 
 
 

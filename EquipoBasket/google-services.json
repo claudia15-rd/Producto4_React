@@ -24,6 +24,25 @@
           "other_platform_oauth_client": []
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365492721405:android:7bb0a788c69c8659079094",
+        "android_client_info": {
+          "package_name": "com.claudiaelizabeth.EquipoBasket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANW8t8jPS_LbjDF9tFcefPV679lcPHD44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
   ],
   "configuration_version": "1"
